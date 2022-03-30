@@ -14,6 +14,7 @@
 		5F298C8227F450D50024FBEF /* Cook_n_YummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8127F450D50024FBEF /* Cook_n_YummyTests.swift */; };
 		5F298C8C27F450D50024FBEF /* Cook_n_YummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8B27F450D50024FBEF /* Cook_n_YummyUITests.swift */; };
 		5F298C8E27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8D27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift */; };
+		5F298C9B27F457D70024FBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F298C9A27F457D70024FBEF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5F298C8727F450D50024FBEF /* Cook'n YummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cook'n YummyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F298C8B27F450D50024FBEF /* Cook_n_YummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyUITests.swift; sourceTree = "<group>"; };
 		5F298C8D27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F298C9A27F457D70024FBEF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5F298C7227F450D40024FBEF /* ContentView.swift */,
 				5F298C7427F450D50024FBEF /* Assets.xcassets */,
 				5F298C7627F450D50024FBEF /* Preview Content */,
+				5F298C9A27F457D70024FBEF /* Main.storyboard */,
 			);
 			path = "Cook'n Yummy";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F298C9B27F457D70024FBEF /* Main.storyboard in Resources */,
 				5F298C7827F450D50024FBEF /* Preview Assets.xcassets in Resources */,
 				5F298C7527F450D50024FBEF /* Assets.xcassets in Resources */,
 			);
