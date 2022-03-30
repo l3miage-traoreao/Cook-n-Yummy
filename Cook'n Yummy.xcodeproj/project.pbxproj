@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F298C7127F450D40024FBEF /* Cook_n_YummyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C7027F450D40024FBEF /* Cook_n_YummyApp.swift */; };
+		5F298C7327F450D40024FBEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C7227F450D40024FBEF /* ContentView.swift */; };
+		5F298C7527F450D50024FBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F298C7427F450D50024FBEF /* Assets.xcassets */; };
+		5F298C7827F450D50024FBEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F298C7727F450D50024FBEF /* Preview Assets.xcassets */; };
+		5F298C8227F450D50024FBEF /* Cook_n_YummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8127F450D50024FBEF /* Cook_n_YummyTests.swift */; };
+		5F298C8C27F450D50024FBEF /* Cook_n_YummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8B27F450D50024FBEF /* Cook_n_YummyUITests.swift */; };
+		5F298C8E27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F298C8D27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F298C7E27F450D50024FBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F298C6527F450D40024FBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F298C6C27F450D40024FBEF;
+			remoteInfo = "Cook'n Yummy";
+		};
+		5F298C8827F450D50024FBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F298C6527F450D40024FBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F298C6C27F450D40024FBEF;
+			remoteInfo = "Cook'n Yummy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F298C6D27F450D40024FBEF /* Cook'n Yummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cook'n Yummy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F298C7027F450D40024FBEF /* Cook_n_YummyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyApp.swift; sourceTree = "<group>"; };
+		5F298C7227F450D40024FBEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F298C7427F450D50024FBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F298C7727F450D50024FBEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F298C7D27F450D50024FBEF /* Cook'n YummyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cook'n YummyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F298C8127F450D50024FBEF /* Cook_n_YummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyTests.swift; sourceTree = "<group>"; };
+		5F298C8727F450D50024FBEF /* Cook'n YummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cook'n YummyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F298C8B27F450D50024FBEF /* Cook_n_YummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyUITests.swift; sourceTree = "<group>"; };
+		5F298C8D27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_n_YummyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F298C6A27F450D40024FBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C7A27F450D50024FBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C8427F450D50024FBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F298C6427F450D40024FBEF = {
+			isa = PBXGroup;
+			children = (
+				5F298C6F27F450D40024FBEF /* Cook'n Yummy */,
+				5F298C8027F450D50024FBEF /* Cook'n YummyTests */,
+				5F298C8A27F450D50024FBEF /* Cook'n YummyUITests */,
+				5F298C6E27F450D40024FBEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F298C6E27F450D40024FBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F298C6D27F450D40024FBEF /* Cook'n Yummy.app */,
+				5F298C7D27F450D50024FBEF /* Cook'n YummyTests.xctest */,
+				5F298C8727F450D50024FBEF /* Cook'n YummyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F298C6F27F450D40024FBEF /* Cook'n Yummy */ = {
+			isa = PBXGroup;
+			children = (
+				5F298C7027F450D40024FBEF /* Cook_n_YummyApp.swift */,
+				5F298C7227F450D40024FBEF /* ContentView.swift */,
+				5F298C7427F450D50024FBEF /* Assets.xcassets */,
+				5F298C7627F450D50024FBEF /* Preview Content */,
+			);
+			path = "Cook'n Yummy";
+			sourceTree = "<group>";
+		};
+		5F298C7627F450D50024FBEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F298C7727F450D50024FBEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F298C8027F450D50024FBEF /* Cook'n YummyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F298C8127F450D50024FBEF /* Cook_n_YummyTests.swift */,
+			);
+			path = "Cook'n YummyTests";
+			sourceTree = "<group>";
+		};
+		5F298C8A27F450D50024FBEF /* Cook'n YummyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F298C8B27F450D50024FBEF /* Cook_n_YummyUITests.swift */,
+				5F298C8D27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift */,
+			);
+			path = "Cook'n YummyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F298C6C27F450D40024FBEF /* Cook'n Yummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F298C9127F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n Yummy" */;
+			buildPhases = (
+				5F298C6927F450D40024FBEF /* Sources */,
+				5F298C6A27F450D40024FBEF /* Frameworks */,
+				5F298C6B27F450D40024FBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cook'n Yummy";
+			productName = "Cook'n Yummy";
+			productReference = 5F298C6D27F450D40024FBEF /* Cook'n Yummy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F298C7C27F450D50024FBEF /* Cook'n YummyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F298C9427F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n YummyTests" */;
+			buildPhases = (
+				5F298C7927F450D50024FBEF /* Sources */,
+				5F298C7A27F450D50024FBEF /* Frameworks */,
+				5F298C7B27F450D50024FBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F298C7F27F450D50024FBEF /* PBXTargetDependency */,
+			);
+			name = "Cook'n YummyTests";
+			productName = "Cook'n YummyTests";
+			productReference = 5F298C7D27F450D50024FBEF /* Cook'n YummyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F298C8627F450D50024FBEF /* Cook'n YummyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F298C9727F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n YummyUITests" */;
+			buildPhases = (
+				5F298C8327F450D50024FBEF /* Sources */,
+				5F298C8427F450D50024FBEF /* Frameworks */,
+				5F298C8527F450D50024FBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F298C8927F450D50024FBEF /* PBXTargetDependency */,
+			);
+			name = "Cook'n YummyUITests";
+			productName = "Cook'n YummyUITests";
+			productReference = 5F298C8727F450D50024FBEF /* Cook'n YummyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F298C6527F450D40024FBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5F298C6C27F450D40024FBEF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5F298C7C27F450D50024FBEF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5F298C6C27F450D40024FBEF;
+					};
+					5F298C8627F450D50024FBEF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5F298C6C27F450D40024FBEF;
+					};
+				};
+			};
+			buildConfigurationList = 5F298C6827F450D40024FBEF /* Build configuration list for PBXProject "Cook'n Yummy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F298C6427F450D40024FBEF;
+			productRefGroup = 5F298C6E27F450D40024FBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F298C6C27F450D40024FBEF /* Cook'n Yummy */,
+				5F298C7C27F450D50024FBEF /* Cook'n YummyTests */,
+				5F298C8627F450D50024FBEF /* Cook'n YummyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F298C6B27F450D40024FBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F298C7827F450D50024FBEF /* Preview Assets.xcassets in Resources */,
+				5F298C7527F450D50024FBEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C7B27F450D50024FBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C8527F450D50024FBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F298C6927F450D40024FBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F298C7327F450D40024FBEF /* ContentView.swift in Sources */,
+				5F298C7127F450D40024FBEF /* Cook_n_YummyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C7927F450D50024FBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F298C8227F450D50024FBEF /* Cook_n_YummyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F298C8327F450D50024FBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F298C8C27F450D50024FBEF /* Cook_n_YummyUITests.swift in Sources */,
+				5F298C8E27F450D50024FBEF /* Cook_n_YummyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F298C7F27F450D50024FBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F298C6C27F450D40024FBEF /* Cook'n Yummy */;
+			targetProxy = 5F298C7E27F450D50024FBEF /* PBXContainerItemProxy */;
+		};
+		5F298C8927F450D50024FBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F298C6C27F450D40024FBEF /* Cook'n Yummy */;
+			targetProxy = 5F298C8827F450D50024FBEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F298C8F27F450D50024FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F298C9027F450D50024FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F298C9227F450D50024FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cook'n Yummy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-Yummy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F298C9327F450D50024FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cook'n Yummy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-Yummy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F298C9527F450D50024FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-YummyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cook'n Yummy.app/Cook'n Yummy";
+			};
+			name = Debug;
+		};
+		5F298C9627F450D50024FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-YummyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cook'n Yummy.app/Cook'n Yummy";
+			};
+			name = Release;
+		};
+		5F298C9827F450D50024FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-YummyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cook'n Yummy";
+			};
+			name = Debug;
+		};
+		5F298C9927F450D50024FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "M1Miage.Cook-n-YummyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cook'n Yummy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F298C6827F450D40024FBEF /* Build configuration list for PBXProject "Cook'n Yummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F298C8F27F450D50024FBEF /* Debug */,
+				5F298C9027F450D50024FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F298C9127F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n Yummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F298C9227F450D50024FBEF /* Debug */,
+				5F298C9327F450D50024FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F298C9427F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n YummyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F298C9527F450D50024FBEF /* Debug */,
+				5F298C9627F450D50024FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F298C9727F450D50024FBEF /* Build configuration list for PBXNativeTarget "Cook'n YummyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F298C9827F450D50024FBEF /* Debug */,
+				5F298C9927F450D50024FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F298C6527F450D40024FBEF /* Project object */;
+}
